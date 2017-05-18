@@ -1,6 +1,6 @@
 {
   "name": "xmlfile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "xml file convertor, from xml to json",
   "main": "xmlfile.js",
   "scripts": {
