@@ -1,0 +1,27 @@
+{
+  "name": "xmlfile",
+  "version": "0.1.0",
+  "description": "xml file convertor, from xml to json",
+  "main": "xmlfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockedpanda/xmlfile.git"
+  },
+  "bin" : "xmlfile.js",
+  "keywords": [
+    "xml",
+    "json"
+  ],
+  "author": "rockedpanda@foxmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rockedpanda/xmlfile/issues"
+  },
+  "homepage": "https://github.com/rockedpanda/xmlfile#readme",
+  "dependencies": {
+    "xml2js": "^0.4.17"
+  }
+}
