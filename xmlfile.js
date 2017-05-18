@@ -28,7 +28,7 @@ function creatFile(fileIn, fileOut) {
         //console.log(data);
         //将输入的xml文件转成json格式供处理函数使用
         parser.parseString(data, function(err, result) {
-            console.log(typeof result);
+            //console.log(typeof result);
             if(!!fileOut){
                 fs.writeFileSync(fileOut, JSON.stringify(result,null,4), 'utf-8');
             } else {
